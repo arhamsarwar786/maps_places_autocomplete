@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   #autocomplete
-  uuid ^4.2.1
+  uuid: ^4.2.1
   http: ^0.13.6
 
 dev_dependencies:
