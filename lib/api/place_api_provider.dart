@@ -93,7 +93,8 @@ class PlaceApiProvider {
           if (type.contains('sublocality_level_1')) {
             place.vicinity = c['long_name'];
           }
-          if (type.contains('administrative_area_level_2')) {
+          // if (type.contains('administrative_area_level_2')) {
+          if (type.contains('locality')) {
             place.city = c['long_name'];
           }
           if (type.contains('administrative_area_level_1')) {
