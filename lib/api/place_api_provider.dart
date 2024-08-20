@@ -98,7 +98,7 @@ class PlaceApiProvider {
             place.city = c['long_name'];
           }
           if (type.contains('administrative_area_level_1')) {
-            place.state = c['long_name'];
+            place.state = c['short_name'];
           }
           if (type.contains('country')) {
             place.country = c['long_name'];
