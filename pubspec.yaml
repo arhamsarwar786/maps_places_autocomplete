@@ -1,6 +1,6 @@
 name: maps_places_autocomplete
 description: A simple package to places autocomplete address.
-version: 0.0.2
+version: 0.0.3
 repository: https://github.com/leandro-zanardi/maps_places_autocomplete
 
 environment:
@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   #autocomplete
   uuid: ^4.2.1
-  http: ^0.13.6
+  http: ^1.1.1
 
 dev_dependencies:
   flutter_test:
